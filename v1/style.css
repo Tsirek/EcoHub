@@ -1,0 +1,165 @@
+body{
+    background-image: url('img/fon-1.png');
+    font-family: 'Prompt', sans-serif;
+    
+
+}
+.fon-1 img {
+    max-width: 100%; /* Устанавливаем максимальную ширину изображения в 100% от контейнера */
+    height: auto; /* Позволяет изображению сохранять пропорции при изменении ширины */
+    display: block; /* Убираем дополнительные промежутки снизу, если они есть */
+    margin-bottom: 10px; /* Добавляем отступ снизу для разделения изображения и текста */
+    max-height: 500px;
+    margin-top: 60px;
+    margin-left: 90px;
+    position: absolute;
+}
+
+.news{
+    font-family: 'Russo One', sans-serif;
+    color:#fff;
+    margin-left: 830px;
+    margin-top: 80px;
+    font-size: 90px;
+    
+}
+
+.news1{
+    font-family: 'Russo One', sans-serif;
+    color: #045f3b;
+    margin-left: 910px;
+    margin-top: -50px;
+    font-size: 75px;
+}
+
+.news2{
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    margin-left: 790px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+}
+
+header {
+    font-family: 'Russo One', sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Russo One', sans-serif;
+    margin-top: 45px;
+    color: #ffffff;
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 45px;
+    margin-right: 150px;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.tycha img{
+    max-width: 100%; /* Устанавливаем максимальную ширину изображения в 100% от контейнера */
+    height: auto; /* Позволяет изображению сохранять пропорции при изменении ширины */
+    display: block; /* Убираем дополнительные промежутки снизу, если они есть */
+    margin-bottom: 10px; /* Добавляем отступ снизу для разделения изображения и текста */
+    max-height: 130px;
+    margin-top: -110px;
+    margin-left: 60px;
+}
+
+.tycha1 img{
+    max-width: 100%;
+    margin-bottom: 10px; 
+    max-height: 100px;
+    margin-top: 15px;
+    margin-left: 430px;
+}
+
+.tycha2 img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+    max-height: 140px;
+    margin-top: 50px;
+    margin-left: 1300px;
+}
+.news__news{
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-left: 480px;
+    font-size: 35px;
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* .logo__img img{
+    max-width: 100%;
+    max-height: 50px; 
+    margin-left: 10px; 
+    margin-top: -200px;
+} */
+
+/* .white{
+    border: 2px solid #fff;
+    margin-top: -60px;
+    position: relative;
+}
+.white1{
+    border: 2px solid #fff;
+    margin-top: -60px;
+    position: relative;
+} */
+.path img{
+    margin-top: -340px;
+    max-width: 35px;
+    position: absolute;
+    margin-left: 80px;
+    transform: rotate(45deg);
+}
+.path1 img{
+    margin-top: -180px;
+    max-width: 35px;
+    position: absolute;
+    margin-left: 510px;
+    transform: rotate(120deg);
+}
+.path2 img{
+    margin-top: -540px;
+    max-width: 35px;
+    position: absolute;
+    margin-left: 430px;
+    transform: rotate(180deg);
+}
+.path3 img{
+    margin-top: -470px;
+    max-width: 35px;
+    position: absolute;
+    margin-left: 1220px;
+    transform: rotate(45deg);
+}
