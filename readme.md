@@ -16,12 +16,12 @@
  
 [Установка React](https://ru.legacy.reactjs.org/) 
  
-Установить Node.js (https://nodejs.org/en)
+Установить [Node.js](https://nodejs.org/en)
 [не ниже версии 14.0.0 и npm не ниже версии 5.6]
 - cmd
 - node -v
 - npm -v
-Запустите web сервеp: 
+- Запустите web сервеp: 
 - npm run start
  
  
