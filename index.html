@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EcoHub - новости о природе</title>
+        <link rel="stylesheet" href="./simple-adaptive-slider.css">
+  <script defer src="./simple-adaptive-slider.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // инициализация 1 слайдера с нужными настройками
+      new ItcSimpleSlider('#slider-1', {
+        loop: true,
+        autoplay: true,
+        interval: 10000,
+        swipe: true,
+      });
+      // инициализация 2 слайдера с нужными настройками
+      new ItcSimpleSlider('#slider-2', {
+        loop: true,
+        autoplay: true,
+        interval: 10000,
+        swipe: true,
+      });
+    });
+    </script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/index.jsx"></script>
+    </body>
+</html>

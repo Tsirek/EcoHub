@@ -1,0 +1,263 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {scroll-behavior: smooth;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+body{
+    background-image: url('./img/fon-1.png');
+    font-family: 'Prompt', sans-serif;
+}
+
+.header {
+    font-family: 'Russo One', sans-serif;
+    display: grid;
+    flex-shrink: 0;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logo{
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 15px 25px;
+}
+
+.header__logo {
+    display: block;
+    justify-self: center;
+    flex-shrink: 0;
+    width: 140px;
+    height: 105px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  padding: 15px 15px 0px 15px;
+}
+
+.header__links-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.header__links-list-item {
+    box-sizing: border-box;
+    list-style: none;
+    gap: 15px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main_event {
+    display: grid;
+    flex-shrink: 0;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main__image {
+    max-height: 500px;
+    max-width: 462px;
+    position: absolute;
+    margin-left: 90px;
+    z-index: 1;
+}
+
+.support__image {
+    max-height: 130px;
+    max-width: 182px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+    z-index: 0;
+}
+
+.support__image2 {
+    max-height: 100px;
+    max-width: 140px;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 430px;
+    z-index: 0;
+}
+
+.path {
+    margin-top: 195px;
+    max-width: 35px;
+    max-height: 26px;
+    position: absolute;
+    margin-left: 80px;
+    transform: rotate(45deg);
+}
+
+.path1 {
+    margin-top: 365px;
+    max-width: 35px;
+    max-height: 26px;
+    position: absolute;
+    margin-left: 510px;
+    transform: rotate(120deg);
+}
+
+.path2 {
+    max-width: 35px;
+    max-height: 26px;
+    position: absolute;
+    margin-left: 430px;
+    transform: rotate(180deg);
+}
+
+.fon-1 img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-bottom: 10px; 
+    max-height: 500px;
+    margin-top: 60px;
+    margin-left: 90px;
+    position: absolute;
+}
+
+.news{
+    font-family: 'Russo One', sans-serif;
+    color:#fff;
+
+    font-size: 90px;
+    
+}
+
+.news1{
+    font-family: 'Russo One', sans-serif;
+    color: #045f3b;
+    margin-left: 130px;
+    margin-top: -75px; 
+    font-size: 75px;
+}
+
+
+.news3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Russo One', sans-serif;
+    color:#fff;
+    font-size: 90px;
+}
+
+.news4 {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    font-family: 'Russo One', sans-serif;
+    color: #045f3b; 
+    font-size: 75px;
+}
+
+.sector__news {
+    display: flex;
+    margin: 100px 40px;
+    flex-direction: column;
+
+}
+
+.sector {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #045f3b;
+    border-radius: 1%;
+}
+
+.sector__image {
+    width: 400px;
+    height: 300px;
+}
+
+.sector__text {
+    font-family: 'Russo One', sans-serif;
+    color:#fff;
+    font-size: 15px;
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    overflow-y: auto;
+    /*overflow-x: hidden;*/
+}
+
+.sector__main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  width: 1440px;
+  
+  overflow-y: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 100px 50px 50px 50px;
+}
+
+.footer__menu {
+  display: flex;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Russo One', sans-serif;
+  color:#fff;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+.footer__menu_list-item {
+  list-style: none;
+}
+
+.footer__menu-link {
+  text-decoration: none;
+}
